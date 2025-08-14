@@ -1,0 +1,13 @@
+﻿{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Treinar PPO",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/train_ppo.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿lengths_mm: [800, 1200, 1800, 2700, 4000]
+lot_bins_m: [50, 100, 200, 300, 500]
+
+weekly_minutes: 4200
+speed_m_per_min: 20
+
+horizon_weeks: 12
+forecast_k: 2
+
+coil_length_m: 150
+coil_fixed_scrap_frac: 0.03
+
+demand:
+  means_per_item: [10, 12, 9, 7, 6]
+  sigma_frac: 0.15
+  min_positive: 1
+
+reward_weights:
+  waste: 1.0
+  stock: 0.02
+  setups: 0.1
+  viol: 10.0

@@ -1,0 +1,9 @@
+﻿gymnasium
+stable-baselines3
+numpy
+pandas
+pyyaml
+matplotlib
+tqdm
+sb3-contrib
+pytest
